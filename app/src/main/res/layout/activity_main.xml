@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sgm.maksubswipeview.MainActivity">
+
+    <sgm.maksubswipeview.flingswitch.SwipeFlingAdapterView
+        android:id="@+id/swipe_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        swipe:max_visible="4"
+        swipe:min_adapter_stack="4"
+        swipe:vertical="false"
+        swipe:y_offset_step="28dp" />
+
+</RelativeLayout>
